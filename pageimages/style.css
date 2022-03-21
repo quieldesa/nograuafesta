@@ -5,6 +5,10 @@ header {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*====  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
