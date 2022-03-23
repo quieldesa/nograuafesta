@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6057078310842160"
-     crossorigin="anonymous"></script>
-    
+
     <script type="module">
       import { Fancybox } from 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js'
     </script>
@@ -16,169 +13,232 @@
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
     />
 
-        <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <title>No Grau - A Festa</title>
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
-    <!-- MAIN.js -->
-    <script src="main.js"></script>
 
     <title>Imagens</title>
   </head>
   <body>
-
     <header id="header">
       <nav class="container">
-        <a class="logo" href="../index.html">no<span> GRAU</span> A<span> FESTA</span></a>
+        <a class="logo" href="../index.html"
+          >no<span> GRAU</span> A<span> FESTA</span></a
+        >
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="../index.html">Início</a></li>
+            <li>
+              <a class="title" href="../contact/contact.html">Ingressos</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
     </header>
 
     <main>
-      
       <div class="divider-1"></div>
-      <h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
-        PIT STOP - 25/03 (em breve)
-      </h1>
-      
-      <!--
 
-      <div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
-        <a data-fancybox="gallery" href="images/1.jpg">
-          <img class="rounded" src="images/mini/01.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/2.jpg">
-          <img class="rounded" src="images/mini/02.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/3.jpg">
-          <img class="rounded" src="images/mini/03.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/4.jpg">
-          <img class="rounded" src="images/mini/04.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/5.jpg">
-          <img class="rounded" src="images/mini/05.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/6.jpg">
-          <img class="rounded" src="images/mini/06.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/7.jpg">
-          <img class="rounded" src="images/mini/07.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/8.jpg">
-          <img class="rounded" src="images/mini/08.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/9.jpg">
-          <img class="rounded" src="images/mini/09.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/10.jpg">
-          <img class="rounded" src="images/mini/010.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/11.jpg">
-          <img class="rounded" src="images/mini/011.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/12.jpg">
-          <img class="rounded" src="images/mini/012.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/13.jpg">
-          <img class="rounded" src="images/mini/013.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/14.jpg">
-          <img class="rounded" src="images/mini/014.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/15.jpg">
-          <img class="rounded" src="images/mini/015.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/16.jpg">
-          <img class="rounded" src="images/mini/016.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/17.jpg">
-          <img class="rounded" src="images/mini/017.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/18.jpg">
-          <img class="rounded" src="images/mini/018.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/1920.jpg">
-          <img class="rounded" src="images/mini/01920.jpg" />      
-        </a>
+      <section class="section" id="contact">
+        <div class="container grid">
+          <h1
+            class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold"
+          >
+            PIT STOP - 25/03 (em breve)
+          </h1>
 
-      -->
-      
-      </div>
-        
-      <div class="divider-1"></div>
-      <h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
-        NO GRAU - A Festa - 10ª Edição (em breve)
-      </h1>
-  
-      <!--
+          <div
+            class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6"
+          >
+            <a data-fancybox="gallery" href="images/1.jpg">
+              <img class="rounded" src="images/mini/01.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/2.jpg">
+              <img class="rounded" src="images/mini/02.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/3.jpg">
+              <img class="rounded" src="images/mini/03.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/4.jpg">
+              <img class="rounded" src="images/mini/04.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/5.jpg">
+              <img class="rounded" src="images/mini/05.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/6.jpg">
+              <img class="rounded" src="images/mini/06.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/7.jpg">
+              <img class="rounded" src="images/mini/07.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/8.jpg">
+              <img class="rounded" src="images/mini/08.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/9.jpg">
+              <img class="rounded" src="images/mini/09.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/10.jpg">
+              <img class="rounded" src="images/mini/010.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/11.jpg">
+              <img class="rounded" src="images/mini/011.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/12.jpg">
+              <img class="rounded" src="images/mini/012.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/13.jpg">
+              <img class="rounded" src="images/mini/013.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/14.jpg">
+              <img class="rounded" src="images/mini/014.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/15.jpg">
+              <img class="rounded" src="images/mini/015.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/16.jpg">
+              <img class="rounded" src="images/mini/016.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/17.jpg">
+              <img class="rounded" src="images/mini/017.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/18.jpg">
+              <img class="rounded" src="images/mini/018.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/1920.jpg">
+              <img class="rounded" src="images/mini/01920.jpg" />
+            </a>
+          </div>
 
-      <div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
-        <a data-fancybox="gallery" href="images/1.jpg">
-          <img class="rounded" src="images/mini/01.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/2.jpg">
-          <img class="rounded" src="images/mini/02.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/3.jpg">
-          <img class="rounded" src="images/mini/03.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/4.jpg">
-          <img class="rounded" src="images/mini/04.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/5.jpg">
-          <img class="rounded" src="images/mini/05.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/6.jpg">
-          <img class="rounded" src="images/mini/06.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/7.jpg">
-          <img class="rounded" src="images/mini/07.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/8.jpg">
-          <img class="rounded" src="images/mini/08.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/9.jpg">
-          <img class="rounded" src="images/mini/09.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/10.jpg">
-          <img class="rounded" src="images/mini/010.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/11.jpg">
-          <img class="rounded" src="images/mini/011.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/12.jpg">
-          <img class="rounded" src="images/mini/012.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/13.jpg">
-          <img class="rounded" src="images/mini/013.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/14.jpg">
-          <img class="rounded" src="images/mini/014.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/15.jpg">
-          <img class="rounded" src="images/mini/015.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/16.jpg">
-          <img class="rounded" src="images/mini/016.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/17.jpg">
-          <img class="rounded" src="images/mini/017.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="images/18.jpg">
-          <img class="rounded" src="images/mini/018.jpg" />      
-        </a>
-        <a data-fancybox="gallery" href="images/1920.jpg">
-          <img class="rounded" src="images/mini/01920.jpg" />      
-        </a>
+          <div class="divider-1"></div>
+          <h1
+            class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold"
+          >
+            NO GRAU - A Festa - 10ª Edição (em breve)
+          </h1>
 
-        -->
-      
-      </div>
+          <div
+            class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6"
+          >
+            <a data-fancybox="gallery" href="images/1.jpg">
+              <img class="rounded" src="images/mini/01.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/2.jpg">
+              <img class="rounded" src="images/mini/02.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/3.jpg">
+              <img class="rounded" src="images/mini/03.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/4.jpg">
+              <img class="rounded" src="images/mini/04.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/5.jpg">
+              <img class="rounded" src="images/mini/05.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/6.jpg">
+              <img class="rounded" src="images/mini/06.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/7.jpg">
+              <img class="rounded" src="images/mini/07.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/8.jpg">
+              <img class="rounded" src="images/mini/08.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/9.jpg">
+              <img class="rounded" src="images/mini/09.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/10.jpg">
+              <img class="rounded" src="images/mini/010.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/11.jpg">
+              <img class="rounded" src="images/mini/011.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/12.jpg">
+              <img class="rounded" src="images/mini/012.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/13.jpg">
+              <img class="rounded" src="images/mini/013.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/14.jpg">
+              <img class="rounded" src="images/mini/014.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/15.jpg">
+              <img class="rounded" src="images/mini/015.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/16.jpg">
+              <img class="rounded" src="images/mini/016.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/17.jpg">
+              <img class="rounded" src="images/mini/017.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/18.jpg">
+              <img class="rounded" src="images/mini/018.jpg" />
+            </a>
+            <a data-fancybox="gallery" href="images/1920.jpg">
+              <img class="rounded" src="images/mini/01920.jpg" />
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            >no<span> GRAU</span>A <span>FESTA</span></a
+          >
+          <p>©2021 casaDoApp.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social grid">
+          <a href="https://instagram.com/j.cproducoescolorado" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a
+            href="https://facebook.com/JC-Produções-Colorado-740237712782309"
+            target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="https://youtube.com/j.cproducoescolorado" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
   </body>
 </html>
