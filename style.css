@@ -18,6 +18,35 @@ img {
   height: auto;
 }
 
+    /* POPUP > */
+#popupimg .containerpop {
+  margin-top: 200px;
+  width: 500px;
+  height: 250px;
+  padding: 5;
+  background-color: none;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 9999; /* número máximo é 9999 */
+  display: grid;
+  display: flex;
+  margin: 5%;
+}
+
+#popupimg .containerpop img.pitstop {
+  border-radius: 10px;
+  width: 80%;
+ 
+  position: fixed;
+ 
+}
+
+#popupimg .containerpop img.closepop {
+  cursor: pointer;
+  width:  6.5vh;
+  height: 6.5vh;
+}
+
 /*====  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
@@ -652,6 +681,38 @@ footer .social a:hover {
   footer .logo {
     font-size: 2.25rem;
   }
+  
+    /* POPUP > */
+#popupimg .containerpop {
+  margin-top: 1px;
+  width: 500px;
+  height: 250px;
+  padding: 5;
+  background-color: none;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 9999; /* número máximo é 9999 */
+  display: grid;
+  display: flex;
+
+  margin-left: 33%;
+  margin-right: 33%;
+
+
+}
+
+#popupimg .containerpop img.pitstop {
+  border-radius: 10px;
+  width: 500px;
+  position: relative;
+}
+
+#popupimg .containerpop img.closepop {
+  cursor: pointer;
+  width:  6.5vh;
+  height: 6.5vh;
+}
+  
 }
 /* large devices: 1023 > */
 /* large devices: 992 */
