@@ -18,6 +18,12 @@ img {
   height: auto;
 }
 
+    /* FACEBOOK COMMENTS > */
+#face {
+  background: white;
+  padding: 10%;
+}
+
     /* POPUP > */
 #popupimg .containerpop {
   margin-top: 200px;
