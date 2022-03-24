@@ -130,3 +130,14 @@ function showDivs(n) {
   }
   x[slideIndex - 1].style.display = 'block'
 }
+
+/* POPUP*/
+document.querySelector('.closepop').addEventListener('click', function () {
+  document.querySelector('.containerpop').style.display = 'none'
+})
+
+window.addEventListener('load', function () {
+  setTimeout(function open(event) {
+    document.querySelector('.containerpop').style.display = 'block'
+  }, 2000)
+})
