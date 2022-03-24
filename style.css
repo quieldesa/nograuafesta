@@ -20,6 +20,7 @@ img {
 
     /* FACEBOOK COMMENTS > */
 #face {
+  max-width: 100%;
   background: white;
   padding: 10%;
 }
