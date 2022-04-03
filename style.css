@@ -317,11 +317,11 @@ nav.show div.icon-close {
   z-index: 0;
 }
 
-#home .image img {
+#home .image iframe {
   position: relative;
 }
 
-#home .image img,
+#home .image iframe,
 #home .image::before {
   border-radius: 0.25rem;
 }
